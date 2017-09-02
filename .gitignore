@@ -1,6 +1,13 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+
+
+## PHPStorm
+.idea
+
+
+## Typical framework files to exclude
+#assets/*
+#!assets/.gitignore
+#protected/runtime/*
+#!protected/runtime/.gitignore
+#protected/data/*.db
+#themes/classic/views/

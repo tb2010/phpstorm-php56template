@@ -1,0 +1,8 @@
+
+phpserver:
+  build: ./docker/apachephp
+  volumes:
+    - ./website/:/var/www/html
+  ports:
+    - "8881:80"
+
